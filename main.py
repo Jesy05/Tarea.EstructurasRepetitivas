@@ -6,7 +6,7 @@ Descripción: Este es el menú de los ejercicios de la tarea. Puede revisar los 
 de cada ejercicio para ver su funcionamiento o llamarlos desde aquí.
 '''
 
-from ej.1 import sumaPrimerosN
+from ejercicio1 import sumaPrimerosN
 from ejercicio2 import productoPrimerosPares
 from ejercicio3 import contarVocales
 from ejercicio4 import promedioCalificaciones
