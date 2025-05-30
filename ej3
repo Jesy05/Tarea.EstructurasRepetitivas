@@ -1,0 +1,48 @@
+// ==============================================
+// Autor: Jesy Nicole González Jarquín
+// Versión: 1.5
+// Fecha: 29/05/2025
+// ==============================================
+Algoritmo contarVocales
+	Definir texto, letra Como Cadena
+	Definir i, contA, contE, contI, contO, contU Como Entero
+	
+	contA <- 0
+	contE <- 0
+	contI <- 0
+	contO <- 0
+	contU <- 0
+	
+	Escribir "Ingrese una cadena:"
+	Leer texto
+	
+	texto <- Minusculas(texto) // Convertimos todo a minúsculas
+	
+	Para i <- 1 Hasta Longitud(texto) Con Paso 1 Hacer
+		letra <- SubCadena(texto, i, i) 
+		
+		Si letra = "a" Entonces
+			contA <- contA + 1
+		FinSi
+		Si letra = "e" Entonces
+			contE <- contE + 1
+		FinSi
+		Si letra = "i" Entonces
+			contI <- contI + 1
+		FinSi
+		Si letra = "o" Entonces
+			contO <- contO + 1
+		FinSi
+		Si letra = "u" Entonces
+			contU <- contU + 1
+		FinSi
+	FinPara
+	
+	Escribir ""
+	Escribir "-- Cantidad de vocales --"
+	Escribir "a: ", contA
+	Escribir "e: ", contE
+	Escribir "i: ", contI
+	Escribir "o: ", contO
+	Escribir "u: ", contU
+FinAlgoritmo
