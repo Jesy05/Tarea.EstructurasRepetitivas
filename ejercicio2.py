@@ -24,6 +24,10 @@ def productoPrimerosPares():
     contador = 0
     num = 2
 
+    # Aquí iniciamos el producto de los primeros M números pares
+    # el primer número par es 2, luego 4, 6, etc.
+    # usamos un bucle while para multiplicar los números pares
+    # por ejemplo, si m es 3, multiplicamos 2 * 4 * 6 = 48
     while contador < m:
         producto *= num
         num += 2
