@@ -1,0 +1,24 @@
+// ==============================================
+// Autor: Jesy Nicole González Jarquín
+// Versión: 1.0
+// Fecha: 29/05/2025
+// ==============================================
+Algoritmo productoPrimerosPares
+	Definir m, contador, numero, producto Como Entero
+	producto <- 1
+	contador <- 0
+	numero <- 2
+	
+	Repetir
+		Escribir "Ingrese un número entero positivo:"
+		Leer m
+	Hasta Que m > 0
+	
+	Mientras contador < m Hacer
+		producto <- producto * numero
+		contador <- contador + 1
+		numero <- numero + 2
+	FinMientras
+	
+	Escribir "El producto de los primeros ", m, " números pares es: ", producto
+FinAlgoritmo
