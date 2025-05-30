@@ -22,6 +22,9 @@ def calcularFactorial():
     
     factorial = 1
     contador = 1
+    # Aquí iniciamos el cálculo del factorial
+    # se multiplica el número por todos los enteros positivos menores que él
+    # por ejemplo, si num es 5, el factorial sería 5 * 4 * 3 * 2 * 1 = 120
     while contador <= num:
         factorial *= contador
         contador += 1
