@@ -21,10 +21,10 @@ def sumaPrimerosN():
             print("⚠️ Entrada inválida.")
     
     suma = 0
-    for i in range(1, n + 1):
-        suma += i
+    for i in range(1, n + 1): #aca lo que hacemos es sumar los números del 1 al N
+        suma += i # y acá vamos acumulando la suma, por ejemplo si n es 5, la suma sería 1 + 2 + 3 + 4 + 5 = 15
     
-    print(f"🎯 La suma de los primeros {n} números es: {suma}")
+    print(f"➕ La suma de los primeros {n} números es: {suma}")
 
 if __name__ == "__main__":
     sumaPrimerosN()
