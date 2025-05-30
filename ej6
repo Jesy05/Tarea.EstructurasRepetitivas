@@ -1,0 +1,26 @@
+// ==============================================
+// Autor: Jesy Nicole González Jarquín
+// Versión: 1.0
+// Fecha: 29/05/2025
+// ==============================================
+Algoritmo sumaParesImpares
+	Definir numero, sumaPares, sumaImpares Como Entero
+	sumaPares <- 0
+	sumaImpares <- 0
+	
+	Repetir
+		Escribir "Ingrese un número (0 para terminar):"
+		Leer numero
+		
+		Si numero <> 0 Entonces
+			Si numero MOD 2 = 0 Entonces
+				sumaPares <- sumaPares + numero
+			Sino
+				sumaImpares <- sumaImpares + numero
+			FinSi
+		FinSi
+	Hasta Que numero = 0
+	
+	Escribir "Suma de pares: ", sumaPares
+	Escribir "Suma de impares: ", sumaImpares
+FinAlgoritmo
