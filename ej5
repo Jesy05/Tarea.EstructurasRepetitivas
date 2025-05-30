@@ -1,0 +1,21 @@
+// ==============================================
+// Autor: Jesy Nicole González Jarquín
+// Versión: 1.0
+// Fecha: 29/05/2025
+// ==============================================
+Algoritmo calcularFactorial
+	Definir n, factorial Como Entero
+	factorial <- 1
+	
+	Repetir
+		Escribir "Ingrese un número entero positivo:"
+		Leer n
+	Hasta Que n >= 0
+	
+	Mientras n > 1 Hacer
+		factorial <- factorial * n
+		n <- n - 1
+	FinMientras
+	
+	Escribir "El factorial es: ", factorial
+FinAlgoritmo
